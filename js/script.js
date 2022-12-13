@@ -23,4 +23,5 @@ const copy = () => {
     copyActive.style.display = "block";
     display.select();
     document.execCommand("copy")
+    alert('Senha copiada para a área de transferência');
 }
